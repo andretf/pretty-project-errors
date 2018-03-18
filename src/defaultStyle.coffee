@@ -19,36 +19,37 @@ module.exports = ->
     marginRight: 1
 
   'pretty-error > header > message':
-    color: 'bright-white'
+    color: 'bright-magenta'
 
   'pretty-error > trace':
     display: 'block'
-    marginTop: 1
 
   'pretty-error > trace > item':
     display: 'block'
-    marginBottom: 1
     marginLeft: 2
     bullet: '"<grey>-</grey>"'
 
   'pretty-error > trace > item > header':
     display: 'block'
 
+  'pretty-error > trace > item > header > pointer > dir':
+    color: 'grey'
+
   'pretty-error > trace > item > header > pointer > file':
-    color: 'bright-yellow'
+    color: 'white'
 
   'pretty-error > trace > item > header > pointer > colon':
     color: 'grey'
 
   'pretty-error > trace > item > header > pointer > line':
-    color: 'bright-yellow'
+    color: 'bright-cyan'
     marginRight: 1
 
   'pretty-error > trace > item > header > what':
-    color: 'white'
+    color: 'bright-yellow'
 
   'pretty-error > trace > item > footer':
-    display: 'block'
+    display: 'none'
 
   'pretty-error > trace > item > footer > addr':
     display: 'block'
