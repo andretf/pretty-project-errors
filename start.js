@@ -1,1 +1,1 @@
-require('./lib/PrettyError').start()
+require('./lib/PrettyProjectErrors').start()
