@@ -1,8 +1,8 @@
 {
-  "name": "pretty-project-error",
+  "name": "pretty-project-errors",
   "version": "1.0.0",
   "description": "See node errors with **even** less clutter",
-  "main": "./lib/PrettyProjectErrore.js",
+  "main": "./lib/PrettyProjectErrors.js",
   "typings": "index.d.ts",
   "scripts": {
     "test": "mocha \"test/**/*.coffee\"",
